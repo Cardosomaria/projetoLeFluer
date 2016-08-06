@@ -290,7 +290,9 @@ ul p {
 
 }
 
-
+body.contato{
+	background-color: #f7f4f4;
+}
 
 
 
@@ -307,12 +309,14 @@ ul p {
 
 input[type=text], input[type=email], textarea{
     padding: 0.5em 1em;
-		width: 150px;
-    border: 1px solid #222222; /* dark gray */
-    line-height: 3;
+		width: 220px;
+    border: 2px solid #3c3a3a; /* dark gray */
+    line-height: 1;
+
 }
 
 input[type=submit] {
+
     padding: 0.5em 1em;
     border: 1px solid #efada3;
     color: #ec7979;
